@@ -68,8 +68,7 @@ class AppPanelProvider extends PanelProvider
             ->authMiddleware([
                 Authenticate::class,
             ])
-            ->font('Inter')
-            ->viteTheme('resources/css/filament/app/theme.css');
+            ->font('Inter');
     }
 
     public function register(): void
